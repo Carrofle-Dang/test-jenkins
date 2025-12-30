@@ -10,8 +10,8 @@ jenkins:
   - kubernetes:
       containerCap: 10
       containerCapStr: "10"
-      jenkinsTunnel: "192.168.0.15:50000"
-      jenkinsUrl: "192.168.0.15:80"
+      jenkinsTunnel: "172.16.89.235:50000"
+      jenkinsUrl: "http://192.168.0.15:80"
       maxRequestsPerHost: 32
       maxRequestsPerHostStr: "32"
       name: "kubernetes"
